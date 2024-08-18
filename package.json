@@ -1,42 +1,15 @@
 {
-    "homepage": "https://Mitch-1997.github.io/phase2-code-challenge-bank-of-flatiron",
-    "name": "react-hooks-bank-of-flatiron-code-challenge",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-      "axios": "^0.27.2",
-      "react": "^17.0.1",
-      "react-dom": "^17.0.1",
-      "react-scripts": "4.0.1",
-      "semantic-ui-css": "^2.2.10"
-    },
-    "devDependencies": {
-      "json-server": "^0.15.1",
-      "webpack-cli": "^4.10.0"
-    },
-    "scripts": {
-      "start": "PORT=8000 react-scripts start",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-      "build": "webpack --config webpack.config.js",
-      "server": "json-server --watch db.json -p 8001"
-    },
-    "eslintConfig": {
-      "extends": [
-        "react-app",
-        "react-app/jest"
-      ]
-    },
-    "browserslist": {
-      "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
-      ],
-      "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
-      ]
-    }
+  "name": "bot-battlr-new",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.12.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "semantic-ui-react": "^0.77.0"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json -p 6001 & open http://localhost:6001/bots & PORT=6002 react-scripts start && fg"
   }
+}
