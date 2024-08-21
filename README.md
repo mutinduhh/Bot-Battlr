@@ -13,20 +13,10 @@ Discharge a bot from service forever by clicking the red "x" button, deleting it
 Setup
 To set up the project, follow these steps:
 
-Create a new project folder and a new private GitHub repository.
-Add your TM as a contributor to the project (for grading purposes only).
-Create a db.json file in the project directory and use the provided data for the server DB.
-Run json-server --watch db.json to start the backend server.
-Test the server by visiting http://localhost:8001/bots in the browser.
-Core Deliverables
-The project conforms to the following guidelines:
+After cloning down the project:
 
-As a user, I should be able to see profiles of all bots rendered in BotCollection.
-As a user, I should be able to add an individual bot to my army by clicking on it.
-As a user, I should be able to release a bot from my army by clicking on it.
-As a user, I should be able to discharge a bot from service forever by clicking the red "x" button.
-Learning Goals
-This project aims to practice the following skills in React:
+Run npm install in your terminal
+Run npm start: This will open both your React page on port 6002 and your backend on port 6001.
 
 # Components
 Props
